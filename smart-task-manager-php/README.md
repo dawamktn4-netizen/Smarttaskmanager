@@ -16,6 +16,18 @@ For a fresh installation, import `database/smart_task_manager.sql` through phpMy
 
 Default local connection: MySQL host `localhost`, database `smart_task_manager`, user `root`, blank password. Optional environment variables: `DB_HOST`, `DB_NAME`, `DB_USER`, `DB_PASSWORD`. Configure these on the PHP server, not in browser JavaScript. Requires PHP 8.0+ with PDO MySQL and mbstring, and MySQL/MariaDB. Developed and tested using XAMPP PHP 8.2.
 
+## Try the app with a demo account
+
+After importing the database and starting the app locally, select **Create an account** on the sign-in page and enter:
+
+| Field | Demo value |
+| --- | --- |
+| Full name | SmartTask Demo |
+| Email address | `demo@example.test` |
+| Password | `SmartTaskDemo2026!` |
+
+Choose your time zone and submit the form. For later visits, sign in with the demo email address and password. Use these example credentials only on your local installation. Each fresh installation requires you to register the demo account once.
+
 ## What is implemented
 
 - Registration and sign-in, password hashing, session regeneration, POST sign-out.
